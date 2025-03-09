@@ -1,0 +1,82 @@
+.recording-list-base {
+    grid-row:    1 / 4;
+    grid-column: 1 / 10;
+    background-color: rgb(255, 253, 253);
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    left: -340px;
+    top: -10px;
+    height: 596px;
+    width: 686px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.errcode{
+    position: fixed;
+    left: 60%;
+}
+.button-groupx {
+    display: flex;
+    justify-content: space-between;
+}
+.recording-item-specialiste1x {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -55px;
+    position: relative;
+    left: -27%;
+    top: -13%;
+}
+.LEVELbtn-specialistex{
+    background-color:#5f7cca;
+    border: none;
+    border-radius: 40px;
+    width: 120px;
+    height: 42px;
+    position: relative;
+    left: 335px;
+    top: -65px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.EXbtn-specialistex{
+    background-color: #5f7cca;
+    border: none;
+    border-radius: 40px;
+    width: 120px;
+    height: 42px;
+    position: relative;
+    left: 339px;
+    top: -65px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.psbtn-specialistex{
+    background-color: #1cb819;
+    border: none;
+    border-radius: 40px;
+    width: 120px;
+    height: 42px;
+    position: relative;
+    left: 345px;
+    top: -65px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.text-supp-specialistex{
+    color: aliceblue;
+    font-size: 108%;
+    font-weight: 300;
+}
+.titlesp{
+    margin-bottom: 16px;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+}

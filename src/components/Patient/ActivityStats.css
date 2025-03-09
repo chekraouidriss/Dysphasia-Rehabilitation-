@@ -1,0 +1,31 @@
+.activity-stats-base {
+    grid-row:    3 / 4;
+    grid-column: 6 / 10;
+    background-color: white;
+}
+
+.activity-stats-title {
+    color: #3C3C3C;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.activity-stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-chart-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

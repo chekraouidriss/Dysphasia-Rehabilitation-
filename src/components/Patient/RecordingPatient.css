@@ -1,0 +1,185 @@
+.recording-Patient-base {
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    left: 240px;
+    top: 15px;
+    height: 594px;
+    width: 1064px;
+}
+/*.Titlepatient{*/
+/*    position: fixed;*/
+/*    left: 22%;*/
+/*    top: 5%;*/
+/*}*/
+
+.microspecialiste{
+    position:fixed;
+    width: 38px;
+    top: 4%;
+    left: 19%;
+}
+.recording-Patient-base {
+    padding: 20px;
+    background-color: white;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.microspecialiste {
+
+    margin: 0 auto 20px;
+}
+
+.Titlepatient {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.collab-pagep{
+
+}
+
+.media-item-audio {
+    width: 100%; /* Ensure the media item takes the full width */
+    max-width: 100%;
+    margin-bottom: 16px;
+
+}
+.media-item-video {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.info-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6px;
+    width: 100%;
+    position: relative;
+}
+.recording-item13 {
+    border: 1px #3A0CA3 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+
+.info-container {
+    flex:1;
+    color: #3C3C3C;
+}
+
+.info-control-more{
+    height: 34px;
+    width: fit-content;
+    background-color: #3A0CA3;
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.info-control-more p {
+    color: white;
+    margin: 12px 12px;
+}
+.LEVELbtnp {
+    background-color: #131ae5;
+    border: none;
+    border-radius: 40px;
+    flex: 1;
+    height: 42px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+    color: #ffffff;
+}
+.collab-pagep h2 {
+    margin-bottom: 20px;
+}
+.msgvide{
+
+}
+.EXbtnp {
+    background-color: #131ae5;
+    border: none;
+    border-radius: 40px;
+    flex: 1;
+    height: 42px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+    color: #ffffff;
+}
+.supprimerbtn, .LEVELbtn, .EXbtn {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+.green-div {
+    position: fixed;
+    background-color: #1b4e97;
+    width: 100px;
+    height: 50px;
+    left: 87%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Assurez-vous qu'elle soit au-dessus des autres éléments */
+}
+.exerciceanalyse{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    font-size:130%;
+    left: 0%;
+    top: -30%;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Modal styling */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+ .select-value{
+     position: initial;
+ }

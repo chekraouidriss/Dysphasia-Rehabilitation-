@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.parenth {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 50px;
+  
+  
+  
+  }
+  
+  .div1h { grid-area: 1 / 1 / 2 / 2; 
+          background-color: rgb(246, 40, 140);
+          height: 598px;
+          width: 220px;
+          margin:5%;
+          border-radius: 30px;
+        }
+        .imagelogo1h {
+          position: absolute;
+          top: 30px; /* Ajuste la distance du haut selon tes besoins */
+          left: 19px; /* Ajuste la distance de la gauche selon tes besoins */
+          width: 200px; /* Définir la largeur souhaitée */
+          height: 350px; /* Définir la hauteur souhaitée */
+      }
+      .button1h {
+          position: relative;
+          top: 150px; 
+          margin: auto;
+          left: 0px; 
+          width: 220px;
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #000000; /* Couleur du texte */
+          background-color: #ffffff;
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button1h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .button2h {
+          position: relative;
+          margin: auto;
+          top: 160px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button2h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .button3h {
+          position: relative;
+          margin: auto;
+          top: 170px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button3h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .button4h {
+          position: relative;
+          margin: auto;
+          top: 180px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button4h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .button5h {
+          position: relative;
+          margin: auto;
+          top: 239px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button5h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .button6h {
+          position: relative;
+          margin: auto;
+          top: 248px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      
+      .button6h:hover {
+          position: relative;
+          background-color: #ffffff; /* Couleur de fond au survol */
+          color: #000000; 
+          box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }
+      .imagelogo2h {
+          position: absolute;
+          top: 8px; /* Ajuste la distance du haut selon tes besoins */
+          left: 10px; /* Ajuste la distance de la gauche selon tes besoins */
+          width: 30px; /* Définir la largeur souhaitée */
+          margin: auto;
+          border-radius: 90px;
+          
+      }
+      .enregistrement{
+        position: relative;
+          margin: auto;
+          top: 190px; 
+          left: 0px; 
+          width: 220px; 
+          height: 50px;
+          border-radius: 60px;
+          background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+          color: #ffffff; /* Couleur du texte */
+          font-size: 20px; /* Taille de la police */
+          text-align: center; /* Centrage du texte */
+          cursor: pointer; /* Curseur de la souris en forme de main */
+          transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+      }
+      .enregistrement:hover{
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+      }

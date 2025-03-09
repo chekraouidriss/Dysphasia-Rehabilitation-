@@ -1,0 +1,667 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.parentpp {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 50px;
+    
+    
+    
+    }
+    
+    .div1pp { grid-area: 1 / 1 / 2 / 2; 
+      background-color: rgba(0, 55, 255, 0.866);
+        height: 598px;
+        width: 220px;
+        margin:5%;
+        border-radius: 30px;
+
+           }
+    .div2pp { grid-area: 1 / 2 / 2 / 3;
+            background-color: antiquewhite;
+            height: 383px;
+            width: 480px;
+            margin: 3%;
+            border-radius: 30px;
+     }
+     .div3pp { grid-area: 1 / 3 / 2 / 3;
+        background-color: antiquewhite;
+        height: 382px;
+        width: 580px;
+        position: relative;
+        left: -10px;
+        top: -100px;
+        margin: auto;
+        border-radius: 30px;
+    }
+    .div4pp{
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: rgb(250, 235, 215);
+        height: 205px;
+        width: 485px;
+        position: relative;
+        top:374px;
+        left: 56px;
+         margin: 5%;
+         border-radius: 30px;
+    }
+    .div5pp{
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: rgb(250, 235, 215);
+        height: 205px;
+        width: 570px;
+        position: relative;
+        top:374px;
+        left: -520px;
+         margin: 5%;
+         border-radius: 30px;
+    }
+     .imagelogo1pp {
+        position: absolute;
+        top: 30px; /* Ajuste la distance du haut selon tes besoins */
+        left: 19px; /* Ajuste la distance de la gauche selon tes besoins */
+        width: 200px; /* Définir la largeur souhaitée */
+        height: 350px; /* Définir la hauteur souhaitée */
+    }
+    .button1pp {
+        position: relative;
+        top: 150px; 
+        margin: auto;
+        left: 0px; 
+        width: 220px;
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgba(3, 54, 238, 0.82); /* Couleur de fond de base */
+        color: #ffffff; /* Couleur du texte */
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button1pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .button2pp {
+        position: relative;
+        margin: auto;
+        top: 160px; 
+        left: 0px; 
+        width: 220px; 
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgba(3, 54, 238, 0.82); /* Couleur de fond de base */
+        color: #ffffff; /* Couleur du texte */
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button2pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .button3pp {
+        position: relative;
+        margin: auto;
+        top: 170px; 
+        left: 0px; 
+        width: 220px; 
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgb(246, 40, 140); /* Couleur de fond de base */
+        color: #000000; /* Couleur du texte */
+        background-color: rgb(255, 255, 255);
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button3pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .button4pp {
+        position: relative;
+        margin: auto;
+        top: 180px; 
+        left: 0px; 
+        width: 220px; 
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgba(3, 54, 238, 0.82); /* Couleur de fond de base */
+        color: #ffffff; /* Couleur du texte */
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button4pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .button5pp {
+        position: relative;
+        margin: auto;
+        top: 270px; 
+        left: 0px; 
+        width: 220px; 
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgba(3, 54, 238, 0.82); /* Couleur de fond de base */
+        color: #ffffff; /* Couleur du texte */
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button5pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .button6pp {
+        position: relative;
+        margin: auto;
+        top: 280px; 
+        left: 0px; 
+        width: 220px; 
+        height: 50px;
+        border-radius: 60px;
+        background-color: rgba(3, 54, 238, 0.82); /* Couleur de fond de base */
+        color: #ffffff; /* Couleur du texte */
+        font-size: 20px; /* Taille de la police */
+        text-align: center; /* Centrage du texte */
+        cursor: pointer; /* Curseur de la souris en forme de main */
+        transition: background-color 0.3s; /* Transition pour le changement de couleur de fond */
+    }
+    
+    .button6pp:hover {
+        position: relative;
+        background-color: #ffffff; /* Couleur de fond au survol */
+        color: #000000; 
+        box-shadow: 0 0 80px #55034a;/* Couleur du texte au survol */
+    }
+    .imagelogo2pp {
+        position: absolute;
+        top: 8px; /* Ajuste la distance du haut selon tes besoins */
+        left: 10px; /* Ajuste la distance de la gauche selon tes besoins */
+        width: 30px; /* Définir la largeur souhaitée */
+        margin: auto;
+        border-radius: 90px;
+        
+    }
+    .imagelogo3pp {
+        position: absolute;
+        top: 0px; /* Ajuste la distance du haut selon tes besoins */
+        left: 7px; /* Ajuste la distance de la gauche selon tes besoins */
+        width: 50px; /* Définir la largeur souhaitée */
+        margin: auto;
+        border-radius: 90px;
+    }
+    .profileperson{
+        width: 150px;
+        height: 200px;
+        position: relative;
+        left: 165px;
+        top: 55px;
+    }
+    .profilepassword1{
+       width: 150px;
+        height: 200px;
+        position: relative;
+        left: -180px;
+        margin: auto;
+        top: 17px;
+
+    }
+    .four h1 {
+        text-align: center;
+        padding-bottom: 0em;
+        font-size: 25px;
+        position: relative;
+        top:2px;
+        font-weight: 900;
+        border-bottom: 3px solid black;
+        padding-bottom: 10px;
+        background-color: #6eb4e2;
+        border-radius: 30px;
+      }
+      .four h1 span {
+        font-weight: 400;
+        word-spacing: 3px;
+        line-height: 2em;
+        padding-bottom: 0.1em;
+        color: rgba(253, 253, 253, 0.938);
+        font-weight: 900;
+      }
+      .four h1:before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 60px;
+        height: 1px;
+        content: "";
+        left: 50%;
+        margin-left: -30px;
+        font-weight: 900;
+      }
+      em {
+        font-style:normal;
+        font-weight: 900;
+      }
+      .styloniw{
+        position: relative;
+        width: 25px;
+        height: 30px;
+        left: 120px;
+        top: -30px;
+      }
+      .styloniw1{
+        position: relative;
+        width: 23px;
+        height: 0px;
+        left: 550px;
+        top: -65px;
+      }
+      .styloniw1{
+        position: relative;
+        width: 23px;
+        height: 0px;
+        left: 550px;
+        top: -65px;
+      }
+      .styloniw2{
+        position: relative;
+        width: 23px;
+        height: 0px;
+        left: 550px;
+        top: -109px;
+      }
+      .styloniw3{
+        position: relative;
+        width: 23px;
+        height: 0px;
+        left: 550px;
+        top: -153px;
+      }
+      .styloniw4{
+        position: relative;
+        width: 23px;
+        height: 0px;
+        left: 550px;
+        top: -197px;
+      }
+      .textpxd{
+        color: rgb(2, 2, 2); /* Texte en blanc */
+        text-align: center; /* Centrer horizontalement */
+        font-size:large;
+        font-weight:bold;
+        top: 10px;
+        left: 173px;
+        position: absolute;
+        font-weight: 900;
+        margin: auto;
+      }
+      .textpxd1{
+        color: rgb(2, 2, 2); /* Texte en blanc */
+        text-align: center; /* Centrer horizontalement */
+        font-size:medium;
+        font-weight:bold;
+        top: 56px;
+        left: 133px;
+        position: absolute;
+        font-weight: 300;
+        margin: auto;
+      }
+      .name{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 50px;
+        font-size: 30px;
+        position: relative;
+        top: 30px;
+        font-weight: 900;
+      }
+      .textex{
+        color: rgb(2, 2, 2); /* Texte en blanc */
+        text-align: center; /* Centrer horizontalement */
+        font-size:large;
+        font-weight:bold;
+        top: 26px;
+        left: 939px;
+        position: absolute;
+        font-weight: 900;
+        margin: auto;}
+        input[id=fname], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            position: relative;
+            top: 5px;
+            display: inline-block;
+            border: 1px solid #979de2;
+            border-radius: 40px;
+            box-sizing: border-box;
+          }
+          input[id=lname1], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            position: relative;
+            top: -40px;
+            display: inline-block;
+            border: 1px solid #979de2;
+            border-radius: 40px;
+            box-sizing: border-box;
+          }
+          input[id=lname2], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            position: relative;
+            top: -84px;
+            display: inline-block;
+            border: 1px solid #979de2;
+            border-radius: 40px;
+            box-sizing: border-box;
+          }
+          input[id=lname3], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            position: relative;
+            top: -130px;
+            display: inline-block;
+            border: 1px solid #979de2;
+            border-radius: 40px;
+            box-sizing: border-box;
+          }
+          input[type=submit] {
+            width: 99%;
+            text-align: center;
+            height: 45px;
+            background-color: #3097db;
+            color: white;
+            padding: 14px 20px;
+            position: relative;
+            top: -160px;
+            margin: 8px 0;
+            border: none;
+            left: 3px;
+            border-radius: 40px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #2251c6;
+          }
+            .pname{
+            position: relative;
+            top: 25px;
+            left: 15px;
+          }
+          .nname{
+            position: relative;
+            top: -23px;
+            left: 15px;
+          }
+          .ename{
+            position: relative;
+            top: -65px;
+            left: 15px;
+          }
+          .tname{
+            position: relative;
+            top:-114px;
+            left: 15px;
+          }
+          .btnmodiferpwdp{
+            width: 55%;
+            text-align: center;
+            height: 45px;
+            background-color: #3097db;
+            color: white;
+            padding: 14px 20px;
+            position: relative;
+            top: 80px;
+            margin: 8px 0;
+            border: none;
+            left: 703px;
+            border-radius: 40px;
+            cursor: pointer;
+          }
+          .btnmodiferpwdp:hover {
+            background-color: #2251c6;
+          }
+          #myChart{
+            position: relative;
+            left: 80px;
+            top: -10px;
+          }
+          .modal {
+            display: flex;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: #ffffff;
+            margin: auto;
+            padding: 60px;
+            border: 1px solid #2407ff;
+            width: 80%;
+            max-width: 500px;
+            position: relative;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modifiertitle{
+            position: relative;
+            top: -47px;
+            text-align: center;
+            left: -4px;
+            font-weight: bold;
+        }
+        .oldPassword{
+            position: relative;
+            left: -50px;
+            top: -9px;
+            font-size: medium;
+            font-weight: 900;
+        }
+        .newPassword{
+            position: relative;
+            left: -50px;
+            top: 8px;
+            font-size: medium;
+            font-weight: 900;
+        }
+        .confirmPassword{
+            position: relative;
+            left: -50px;
+            top: 22px;
+            font-size: medium;
+            font-weight: 900;
+        }
+        #oldPassword{
+            position: relative;
+            width: 222px;
+            top: -10px;
+            font-weight: 900;
+        }
+        #confirmPassword{
+            position: relative;
+            width: 220px;
+            left: -23px;
+            top: 20px;
+            font-weight: 900;
+        }
+        #newPassword{
+            position: relative;
+            width: 220px;
+            left: -15px;
+            top: 6px;
+            font-weight: 900;
+        }
+        .btnmodiferpwd1{
+            position: relative;
+            top: 40px; 
+            margin: auto;
+            left: 172px; 
+            width: 140px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: rgb(24, 74, 211); /* Couleur de fond de base */
+            color: #ffffff; /* Couleur du texte */
+            font-size: 20px; /* Taille de la police */
+            text-align: center; /* Centrage du texte */
+            cursor: pointer; /* Curseur de la souris en forme de main */
+            transition: background-color 0.3s; 
+        }
+        .countex{
+          text-align: center;
+          color: rgb(0, 0, 0);
+          font-weight: bold;
+          margin-bottom: 50px;
+          font-size: 50px;
+          position: relative;
+          top: -205px;
+          left: 0px;
+          font-weight: 900;
+        }
+        .btnmodiferpwdpx{
+          width: 20%;
+          text-align: center;
+          height: 90px;
+          background-color: #1d5575;
+          color: white;
+          padding: 14px 20px;
+          position: relative;
+          top: 67px;
+          margin: 8px 0;
+          border: none;
+          left: -309px;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+        .btnmodiferpwdpx:hover {
+          background-color: #2251c6;
+        }
+        .btnmodiferpwdpex2{
+          width: 20%;
+          text-align: center;
+          height: 90px;
+          background-color: #1d5575;
+          color: white;
+          padding: 14px 20px;
+          position: relative;
+          top: 100px;
+          margin: 8px 0;
+          border: none;
+          left: -309px;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+        .btnmodiferpwdpex2:hover {
+          background-color: #2251c6;
+        }
+       
+        .btnmodiferpwdpex3{
+          width: 20%;
+          text-align: center;
+          height: 90px;
+          background-color: #1d5575;
+          color: white;
+          padding: 14px 20px;
+          position: relative;
+          top: -40px;
+          margin: 8px 0;
+          border: none;
+          left: 232px;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+        .btnmodiferpwdpex3:hover {
+          background-color: #2251c6;
+        }
+        .btnmodiferpwdpex4{
+          width: 20%;
+          text-align: center;
+          height: 90px;
+          background-color: #1d5575;
+          color: white;
+          padding: 14px 20px;
+          position: relative;
+          top: -14px;
+          margin: 8px 0;
+          border: none;
+          left: 232px;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+        .btnmodiferpwdpex4:hover {
+          background-color: #2251c6;
+        }
+        .btnmodiferpwdpex5{
+          width: 20%;
+          text-align: center;
+          height: 90px;
+          background-color: #1d5575;
+          color: white;
+          padding: 14px 20px;
+          position: relative;
+          top: -48px;
+          margin: 8px 0;
+          border: none;
+          left: 230px;
+          border-radius: 40px;
+          cursor: pointer;
+        }
+        .btnmodiferpwdpex5:hover {
+          background-color: #2251c6;
+        }

@@ -1,0 +1,19 @@
+.grid-container-dashboard {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% auto 45%;
+    column-gap: 20px;
+    row-gap: 24px;
+    height: calc(100vh - 48px);
+    width: calc(100vw - 48px);
+    
+    
+}
+
+.rounderCorn {
+    border-radius: 28px;
+}
+
+.dropShadow {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}

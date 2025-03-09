@@ -1,0 +1,36 @@
+.patient-board-base {
+    grid-row:    2 / 5;
+    grid-column: 1 / 6;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 530px;
+    top: -15px;
+    left: 218%;
+}
+
+.patient-board-stats-title {
+    color: #3C3C3C;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+
+    width: calc(100% - 16px);
+}
+
+.patient-board-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 110%;
+    flex: 1;
+}
+
+

@@ -1,0 +1,61 @@
+.collab-stats-container-base {
+    grid-row:    3 / 2;
+    grid-column: 6 / 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    row-gap: 24px;
+    position: relative;
+    left: 360px;
+    top: 267px;
+}
+
+.good-grade-stats-container {
+    grid-row:    1 / 2;
+    grid-column: 1 / 3;
+    background-color: #2BC016;
+}
+
+.bad-grade-stats-container {
+    grid-row:    2 / 3;
+    grid-column: 1 / 3;
+    background-color: #DA2C38;
+}
+
+.total-grade-stats-container {
+    grid-row:    1 / 3;
+    grid-column: 3 / 4;
+    background-color: #5146f1;
+}
+
+.collab-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.collab-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.collab-stats-value {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}

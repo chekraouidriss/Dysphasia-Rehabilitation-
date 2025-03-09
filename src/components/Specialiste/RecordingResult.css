@@ -1,0 +1,51 @@
+.recording-result-container {
+    grid-row: 3 / 4;
+    grid-column: 9 / 13;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 24px;
+    position: fixed;
+    width: 310px;
+    height: 70px;
+    top: 85%;
+    left: 1008px;
+}
+
+.recording-result-good {
+    grid-row:    1 / 2;
+    grid-column: 2 / 3;
+    background-color: #858e84;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recording-result-retry {
+    grid-row:    1 / 2;
+    grid-column: 1 / 2;
+    background-color: #858e84;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.recording-result-btn-text {
+    color: white;
+    font-size: medium;
+    margin-left: 12px;
+}
+/* RecordingResult.css */
+.recording-result-retry.retry-clicked {
+    background-color: red; /* Rouge */
+}
+
+.recording-result-good.pass-clicked {
+    background-color: green; /* Vert */
+}

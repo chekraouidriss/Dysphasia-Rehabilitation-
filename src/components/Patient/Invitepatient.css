@@ -1,0 +1,171 @@
+.invitepatient-stats-base {
+    grid-row:    3 / 4;
+    grid-column: 6 / 10;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 6%;
+    height: 93%;
+    width: 80%;
+    border-radius: 40px;
+}
+.newrecord-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.newrecord-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.newrecord-stats-value {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.newrecord-stats-unit {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+.inviteimg{
+    position: relative;
+    width: 120px;
+    left: 94px;
+    top: 5%;
+}
+.titleinvite{
+    position: relative;
+    left: 27%;
+    top: 5%;
+    font-size: medium;
+    font-weight: 900;
+    color: #000;
+}
+.txtinvite{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    color: #000;
+}
+.btninvite{
+    width: 55%;
+    text-align: center;
+    height: 45px;
+    background-color: #3097db;
+    color: white;
+    padding: 14px 20px;
+    position: relative;
+    top: 12px;
+    margin: 8px 0;
+    border: none;
+    left: 66px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.btninvite:hover{
+    background-color: rgb(22, 22, 190);
+}
+/* Modal Container */
+.modal1 {
+    display: flex; /* Utilisé pour centrer le contenu */
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Fixe la modal en position */
+    z-index: 1000; /* S'assure que la modal est au-dessus des autres éléments */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Ajoute un défilement si nécessaire */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+}
+
+/* Modal Content */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centre la modal verticalement */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largeur de la modal */
+    max-width: 500px; /* Largeur maximale */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ombre */
+}
+
+/* Close Button */
+.close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Styling */
+.modal-content1 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content1 label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.modal-content1 input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-content1 button[type="submit"] {
+    background-color: #084480;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-content1 button[type="submit"]:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Message Styling */
+.modal-content1 .message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000; /* Couleur de l'erreur */
+}
+

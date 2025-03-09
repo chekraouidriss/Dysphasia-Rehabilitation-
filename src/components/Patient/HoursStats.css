@@ -1,0 +1,51 @@
+.hours-stats-base {
+    grid-row:    2 / 3;
+    grid-column: 11 / 13;
+    background-color: #3754d4;
+    position: relative;
+    height: 170px;
+    height: 200px;
+}
+
+.hours-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.hours-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hours-stats-value {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.hours-stats-unit {
+    color: rgb(253, 253, 253);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    top: 29px;
+}

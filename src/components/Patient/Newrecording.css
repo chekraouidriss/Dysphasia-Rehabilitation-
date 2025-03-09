@@ -1,0 +1,54 @@
+.newrecording-stats-base {
+    grid-row:    3 / 4;
+    grid-column: 6 / 10;
+    background-color: rgb(93, 196, 225);
+    position: relative;
+    left: -76%;
+    height: 93%;
+    width: 80%;
+    border-radius: 40px;
+}
+.newrecord-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.newrecord-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.newrecord-stats-value {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.newrecord-stats-unit {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    top: 7%;
+   
+    
+}

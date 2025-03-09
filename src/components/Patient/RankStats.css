@@ -1,0 +1,45 @@
+.rank-stats-base {
+    grid-row:    2 / 3;
+    grid-column: 6 / 9;
+    background-color: #7209B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 170px;
+    height: 200px;
+}
+
+.rank-stats-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank-stats-image {
+    width: 160px;
+}
+
+.rank-stats-name {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    height: 170px;
+    height: 24px;
+}
+
+.rank-stats-desc {
+    color: white;
+    opacity: 90%;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}

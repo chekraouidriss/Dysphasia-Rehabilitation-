@@ -1,0 +1,53 @@
+.analyse-stats-base {
+    grid-row:    2 / 3;
+    grid-column: 9 / 11;
+    background-color: #6528a1;
+    position: relative;
+    left: -87%;
+    top: -10px;
+    height: 250px;
+}
+
+.analyse-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.analyse-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.analyse-stats-value {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.analyse-stats-unit {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    position: relative;
+    top: 7%;
+}
+

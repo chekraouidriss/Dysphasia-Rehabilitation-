@@ -1,0 +1,108 @@
+.recording-item-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 32px);
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.recording-item-details-container-selected {
+    background-color: #3A0CA3;
+    border-radius: 12px;
+}
+
+.recording-item-img-container-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recording-item-img-pro {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 6px;
+}
+
+.recording-student-data-pro {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.recording-student-data-name-pro{
+    font-weight: bold;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+
+.recording-student-data-extras-pro{
+    margin: 0;
+}
+
+.recording-current-date-pro {
+    flex: 1;
+}
+
+.recording-current-date-text-pro {
+    background-color: #4CC9F0;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-level-pro {
+    flex: 1;
+}
+
+.recording-current-level-text-pro {
+    background-color: #7209B7;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-exercise-pro {
+    flex: 1;
+}
+
+.recording-current-exercise-text-pro {
+    background-color: #3A0CA3;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-duration-pro {
+    flex: 1;
+}
+
+.recording-current-duration-text-pro {
+    background-color: #4361EE;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-text-selected{
+    color: white;
+}
+
+.recording-current-text-selected-pro{
+    background-color: #3A0CA3;
+    border: 1px white solid;
+}
